@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* The body tag effects the entire page*/
+
 body {
     background-color: #d9dcd6;
 }
+
+/* The header class in CSS effect the header section and all tags related */
 
 .header {
     padding: 20px;
@@ -19,6 +23,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
+
+/* .seo has a unique color thus needing a specific element change */
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -45,6 +51,8 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Names have been altered to be more specfic or meet semantic HTML criteria */
 
 .marketing-display-image {
     height: 800px;
@@ -78,6 +86,8 @@ a {
     font-size: 36px;
 }
 
+/* Float classes refering to content in the section */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -91,6 +101,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* Classes were combined to simplify CSS and seen as unnessary */
 
 .benefits-column {
     margin-right: 20px;
